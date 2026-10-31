@@ -1,0 +1,507 @@
+{
+  "training_state": {
+    "status": "completed",
+    "current_epoch": 18,
+    "total_epochs": 18,
+    "current_step": 268,
+    "total_steps": 270,
+    "progress_percent": 100.0,
+    "current_train_loss": 0.2483,
+    "current_val_loss": 8.4532,
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 5.8284,
+        "train_perplexity": 339.82,
+        "train_top1_acc": 6.08,
+        "val_loss": 6.3348,
+        "val_perplexity": 563.86,
+        "val_top1_acc": 3.88,
+        "learning_rate": 0.001,
+        "elapsed_time": 3.95
+      },
+      {
+        "epoch": 2,
+        "train_loss": 5.4157,
+        "train_perplexity": 224.9,
+        "train_top1_acc": 7.34,
+        "val_loss": 6.6873,
+        "val_perplexity": 802.18,
+        "val_top1_acc": 4.74,
+        "learning_rate": 0.001,
+        "elapsed_time": 4.15
+      },
+      {
+        "epoch": 3,
+        "train_loss": 5.0981,
+        "train_perplexity": 163.71,
+        "train_top1_acc": 12.07,
+        "val_loss": 6.5887,
+        "val_perplexity": 726.83,
+        "val_top1_acc": 4.2,
+        "learning_rate": 0.001,
+        "elapsed_time": 4.32
+      },
+      {
+        "epoch": 4,
+        "train_loss": 4.3102,
+        "train_perplexity": 74.46,
+        "train_top1_acc": 19.49,
+        "val_loss": 6.411,
+        "val_perplexity": 608.5,
+        "val_top1_acc": 5.23,
+        "learning_rate": 0.001,
+        "elapsed_time": 4.5
+      },
+      {
+        "epoch": 5,
+        "train_loss": 3.4655,
+        "train_perplexity": 31.99,
+        "train_top1_acc": 31.16,
+        "val_loss": 6.6835,
+        "val_perplexity": 799.1,
+        "val_top1_acc": 5.98,
+        "learning_rate": 0.001,
+        "elapsed_time": 4.71
+      },
+      {
+        "epoch": 6,
+        "train_loss": 2.7892,
+        "train_perplexity": 16.27,
+        "train_top1_acc": 41.94,
+        "val_loss": 7.079,
+        "val_perplexity": 1186.76,
+        "val_top1_acc": 6.14,
+        "learning_rate": 0.001,
+        "elapsed_time": 4.98
+      },
+      {
+        "epoch": 7,
+        "train_loss": 2.2737,
+        "train_perplexity": 9.72,
+        "train_top1_acc": 50.5,
+        "val_loss": 7.0674,
+        "val_perplexity": 1173.05,
+        "val_top1_acc": 7.54,
+        "learning_rate": 0.001,
+        "elapsed_time": 5.27
+      },
+      {
+        "epoch": 8,
+        "train_loss": 1.8699,
+        "train_perplexity": 6.49,
+        "train_top1_acc": 57.26,
+        "val_loss": 7.361,
+        "val_perplexity": 1573.4,
+        "val_top1_acc": 7.92,
+        "learning_rate": 0.001,
+        "elapsed_time": 5.54
+      },
+      {
+        "epoch": 9,
+        "train_loss": 1.5588,
+        "train_perplexity": 4.75,
+        "train_top1_acc": 64.58,
+        "val_loss": 7.4425,
+        "val_perplexity": 1706.99,
+        "val_top1_acc": 8.46,
+        "learning_rate": 0.001,
+        "elapsed_time": 5.81
+      },
+      {
+        "epoch": 10,
+        "train_loss": 1.2859,
+        "train_perplexity": 3.62,
+        "train_top1_acc": 73.46,
+        "val_loss": 7.8127,
+        "val_perplexity": 2471.75,
+        "val_top1_acc": 9.05,
+        "learning_rate": 0.001,
+        "elapsed_time": 6.1
+      },
+      {
+        "epoch": 11,
+        "train_loss": 1.0541,
+        "train_perplexity": 2.87,
+        "train_top1_acc": 81.13,
+        "val_loss": 8.0077,
+        "val_perplexity": 3003.89,
+        "val_top1_acc": 9.43,
+        "learning_rate": 0.001,
+        "elapsed_time": 6.38
+      },
+      {
+        "epoch": 12,
+        "train_loss": 0.8474,
+        "train_perplexity": 2.33,
+        "train_top1_acc": 88.03,
+        "val_loss": 8.112,
+        "val_perplexity": 3334.3,
+        "val_top1_acc": 10.99,
+        "learning_rate": 0.001,
+        "elapsed_time": 6.67
+      },
+      {
+        "epoch": 13,
+        "train_loss": 0.6681,
+        "train_perplexity": 1.95,
+        "train_top1_acc": 92.26,
+        "val_loss": 7.834,
+        "val_perplexity": 2525.09,
+        "val_top1_acc": 10.45,
+        "learning_rate": 0.001,
+        "elapsed_time": 6.95
+      },
+      {
+        "epoch": 14,
+        "train_loss": 0.5246,
+        "train_perplexity": 1.69,
+        "train_top1_acc": 94.88,
+        "val_loss": 8.2362,
+        "val_perplexity": 3775.13,
+        "val_top1_acc": 10.67,
+        "learning_rate": 0.001,
+        "elapsed_time": 7.24
+      },
+      {
+        "epoch": 15,
+        "train_loss": 0.4179,
+        "train_perplexity": 1.52,
+        "train_top1_acc": 95.99,
+        "val_loss": 8.1423,
+        "val_perplexity": 3436.71,
+        "val_top1_acc": 11.91,
+        "learning_rate": 0.001,
+        "elapsed_time": 7.52
+      },
+      {
+        "epoch": 16,
+        "train_loss": 0.3475,
+        "train_perplexity": 1.42,
+        "train_top1_acc": 96.47,
+        "val_loss": 8.51,
+        "val_perplexity": 4964.23,
+        "val_top1_acc": 12.28,
+        "learning_rate": 0.001,
+        "elapsed_time": 7.79
+      },
+      {
+        "epoch": 17,
+        "train_loss": 0.2886,
+        "train_perplexity": 1.33,
+        "train_top1_acc": 96.78,
+        "val_loss": 8.3371,
+        "val_perplexity": 4175.77,
+        "val_top1_acc": 11.69,
+        "learning_rate": 0.001,
+        "elapsed_time": 8.07
+      },
+      {
+        "epoch": 18,
+        "train_loss": 0.2483,
+        "train_perplexity": 1.28,
+        "train_top1_acc": 97.05,
+        "val_loss": 8.4532,
+        "val_perplexity": 4689.91,
+        "val_top1_acc": 11.48,
+        "learning_rate": 0.001,
+        "elapsed_time": 8.35
+      }
+    ],
+    "best_val_loss": 6.3348,
+    "best_epoch": 1,
+    "elapsed_seconds": 8.47,
+    "message": "Training completed! Best Val Loss: 6.3348 (Epoch 1). Test Perplexity: 471.06."
+  },
+  "latest_evaluation": {
+    "cross_entropy_loss": 6.155,
+    "perplexity": 471.06,
+    "top1_accuracy": 3.29,
+    "top3_accuracy": 13.63,
+    "top5_accuracy": 19.07,
+    "total_tokens_evaluated": 1856,
+    "prediction_examples": [
+      {
+        "sample_index": 1,
+        "context_preview": "that fair thou ow'st . nor shall death",
+        "expected_target": "brag",
+        "top1_prediction": "the",
+        "is_correct": false,
+        "in_top5": false,
+        "top5_candidates": [
+          {
+            "token": "the",
+            "id": 4,
+            "probability": 4.26
+          },
+          {
+            "token": ".",
+            "id": 5,
+            "probability": 3.37
+          },
+          {
+            "token": ",",
+            "id": 6,
+            "probability": 2.31
+          },
+          {
+            "token": "a",
+            "id": 8,
+            "probability": 1.41
+          },
+          {
+            "token": "to",
+            "id": 7,
+            "probability": 1.27
+          }
+        ]
+      },
+      {
+        "sample_index": 2,
+        "context_preview": "thou ow'st . nor shall death brag thou",
+        "expected_target": "wand'rest",
+        "top1_prediction": "the",
+        "is_correct": false,
+        "in_top5": false,
+        "top5_candidates": [
+          {
+            "token": "the",
+            "id": 4,
+            "probability": 4.05
+          },
+          {
+            "token": ".",
+            "id": 5,
+            "probability": 3.44
+          },
+          {
+            "token": ",",
+            "id": 6,
+            "probability": 2.34
+          },
+          {
+            "token": "a",
+            "id": 8,
+            "probability": 1.43
+          },
+          {
+            "token": "to",
+            "id": 7,
+            "probability": 1.27
+          }
+        ]
+      },
+      {
+        "sample_index": 3,
+        "context_preview": ". nor shall death brag thou wand'rest in",
+        "expected_target": "his",
+        "top1_prediction": "the",
+        "is_correct": false,
+        "in_top5": false,
+        "top5_candidates": [
+          {
+            "token": "the",
+            "id": 4,
+            "probability": 4.08
+          },
+          {
+            "token": ".",
+            "id": 5,
+            "probability": 3.42
+          },
+          {
+            "token": ",",
+            "id": 6,
+            "probability": 2.28
+          },
+          {
+            "token": "in",
+            "id": 11,
+            "probability": 1.44
+          },
+          {
+            "token": "a",
+            "id": 8,
+            "probability": 1.41
+          }
+        ]
+      },
+      {
+        "sample_index": 4,
+        "context_preview": "shall death brag thou wand'rest in his shade",
+        "expected_target": ",",
+        "top1_prediction": "the",
+        "is_correct": false,
+        "in_top5": true,
+        "top5_candidates": [
+          {
+            "token": "the",
+            "id": 4,
+            "probability": 4.15
+          },
+          {
+            "token": ".",
+            "id": 5,
+            "probability": 3.45
+          },
+          {
+            "token": ",",
+            "id": 6,
+            "probability": 2.29
+          },
+          {
+            "token": "a",
+            "id": 8,
+            "probability": 1.46
+          },
+          {
+            "token": "to",
+            "id": 7,
+            "probability": 1.27
+          }
+        ]
+      },
+      {
+        "sample_index": 5,
+        "context_preview": "brag thou wand'rest in his shade , when",
+        "expected_target": "in",
+        "top1_prediction": "the",
+        "is_correct": false,
+        "in_top5": true,
+        "top5_candidates": [
+          {
+            "token": "the",
+            "id": 4,
+            "probability": 4.12
+          },
+          {
+            "token": ".",
+            "id": 5,
+            "probability": 3.57
+          },
+          {
+            "token": ",",
+            "id": 6,
+            "probability": 2.25
+          },
+          {
+            "token": "a",
+            "id": 8,
+            "probability": 1.43
+          },
+          {
+            "token": "in",
+            "id": 11,
+            "probability": 1.27
+          }
+        ]
+      },
+      {
+        "sample_index": 6,
+        "context_preview": "wand'rest in his shade , when in eternal",
+        "expected_target": "lines",
+        "top1_prediction": "the",
+        "is_correct": false,
+        "in_top5": false,
+        "top5_candidates": [
+          {
+            "token": "the",
+            "id": 4,
+            "probability": 4.06
+          },
+          {
+            "token": ".",
+            "id": 5,
+            "probability": 3.39
+          },
+          {
+            "token": ",",
+            "id": 6,
+            "probability": 2.34
+          },
+          {
+            "token": "a",
+            "id": 8,
+            "probability": 1.46
+          },
+          {
+            "token": "to",
+            "id": 7,
+            "probability": 1.29
+          }
+        ]
+      },
+      {
+        "sample_index": 7,
+        "context_preview": "his shade , when in eternal lines to",
+        "expected_target": "time",
+        "top1_prediction": "the",
+        "is_correct": false,
+        "in_top5": false,
+        "top5_candidates": [
+          {
+            "token": "the",
+            "id": 4,
+            "probability": 4.03
+          },
+          {
+            "token": ".",
+            "id": 5,
+            "probability": 3.32
+          },
+          {
+            "token": ",",
+            "id": 6,
+            "probability": 2.3
+          },
+          {
+            "token": "a",
+            "id": 8,
+            "probability": 1.47
+          },
+          {
+            "token": "to",
+            "id": 7,
+            "probability": 1.44
+          }
+        ]
+      },
+      {
+        "sample_index": 8,
+        "context_preview": ", when in eternal lines to time thou",
+        "expected_target": "grow'st",
+        "top1_prediction": "the",
+        "is_correct": false,
+        "in_top5": false,
+        "top5_candidates": [
+          {
+            "token": "the",
+            "id": 4,
+            "probability": 4.05
+          },
+          {
+            "token": ".",
+            "id": 5,
+            "probability": 3.44
+          },
+          {
+            "token": ",",
+            "id": 6,
+            "probability": 2.34
+          },
+          {
+            "token": "a",
+            "id": 8,
+            "probability": 1.43
+          },
+          {
+            "token": "to",
+            "id": 7,
+            "probability": 1.27
+          }
+        ]
+      }
+    ],
+    "evaluated_at": "2026-10-31 23:44:23"
+  }
+}
